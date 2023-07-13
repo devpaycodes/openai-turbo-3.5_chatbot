@@ -1,0 +1,23 @@
+[
+    {
+      "role": "user",
+      "content": "Analyse cards payment method pricing data. Stripe{US: [ cards, 2.9%+$0.30], UK: [cards, 1.5%+20p]} and Paypal{[US, cards, (3.49%+$0.5)],[UK, cards, 1.2%+GPB 0.30]}"
+    },
+    {
+      "role": "assistant",
+      "content": "I have analysed the above data for card payment method pricing in US and UK for Stripe and Paypal payment gateways"
+    },
+    {
+      "role": "user",
+      "content": "Analyse bank transfer payment method pricing data. Stripe{[US, 0.8% capped at $5.00],[UK, 0.5% capped at $5]} and Paypal{[US, 1.5%+$0.5],[UK, 2.9%+$0.30]}"
+    },
+    {
+      "role": "assistant",
+      "content": "I have analysed the pricing of bank transfer payment method in US and UK for Stripe and Paypal payment gateways"
+    },
+    {
+      "role": "user",
+      "content": "First wish the user and tell who you are and ask the following questions one by one 1. Always ask for which payment gateway the user wants to find out the fees for. 2. Ask for which payment method do they want to implement.3. Ask the average amount of each transaction happen on their bussiness.Once all the questions are answered, use the above pricing data to respond"
+    }
+  ]
+  
